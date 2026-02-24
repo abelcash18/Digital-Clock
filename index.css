@@ -53,6 +53,43 @@
       margin-top: 8px;
     }
 
+    .continent-selector {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .continent-selector label {
+      font-size: 1rem;
+      color: #070707;
+      font-weight: 500;
+    }
+
+    .continent-selector select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.1);
+      color: #0e0e0e;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .continent-selector select:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .continent-selector select:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+      border-color: #ffdd57;
+      box-shadow: 0 0 8px rgba(255, 221, 87, 0.4);
+    }
+
     .colon {
       animation: blink 1.2s infinite;
     }
